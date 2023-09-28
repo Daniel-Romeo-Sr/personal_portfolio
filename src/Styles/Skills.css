@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.skillContainer__text{
+    color: white;
+    flex: 0.4;
+    /* margin-right: 250px; */
+}
+.skillContainer__text > h2
+{
+    font-size: 30px;
+}
+.skillContainer__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 0x;
+}
+.skillContainer__image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+h4{
+    font-family: "Montserrat",sans-serif;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.linear{
+    /* animation: fillbars 2.5 1; */
+    margin-bottom: 25px;
+}
+.skillContainer__slider > .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(88, 88, 88);
+}
+.skillContainer__slider > .css-5xe99f-MuiLinearProgress-bar1{
+    background-color:rgb(230, 47, 14) !important;
+} 
+/* .linear ::before{
+content: attr(value);
+position: absolute;
+padding: 4px 6px;
+background-color: whitesmoke;
+font-size: 12px;
+top: -35;
+right: 0;
+transform: translateX(50%);
+} */
+@keyframes fillbars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}

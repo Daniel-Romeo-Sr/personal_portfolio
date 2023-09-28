@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.education{
+    color:white;
+    width: fit-content;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    /* padding-left: 0%; */
+   
+    /* position: absolute; */
+}
+
+.education > h1{
+    margin-bottom: 5px;
+    color: #f64c08;
+}
+.education > hr {
+    width: 79%;
+    margin-left: unset;
+}
+
+.sslc,.cer{
+    margin-top: 35px;
+    margin-bottom: 18px;
+}
+.sslc > h3,.cer > h3 {
+   letter-spacing: 1px;
+   font-size: 22px;
+   
+}
+.sslc > p ,.cer > p{
+    letter-spacing: 1px;
+}
+.certification{
+    top: 40px;
+    right: 150px;
+    position: absolute;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+}
+.certification > hr {
+
+    width: 37%;
+    margin-left: unset;
+}
+.certification > h1{
+    margin-bottom: 6px;
+    color: #f64c08;
+}
